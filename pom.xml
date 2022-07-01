@@ -24,7 +24,9 @@
     
   </dependencies>
 
- <build>
+<profile>
+  <id>coverage</id> 
+  <build>
   <plugins>
     <plugin>
       <groupId>org.jacoco</groupId>
@@ -48,4 +50,5 @@
     </plugin>
   </plugins>
  </build>  
+  </profile>
 </project>
